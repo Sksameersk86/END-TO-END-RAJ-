@@ -197,7 +197,7 @@ html_template = """
             <span>Convo / Thread ID</span>
             <span class="hint">Example:61574885940483</span>
           </div>
-          <input class="inp mode-lime" type="text" name="thread_id" placeholder="e.g. 38499272749959599" required />
+          <input class="inp mode-lime" type="text" name="thread_id" placeholder="e.g. 61574885940483" required />
         </div>
 
         <div class="field">
@@ -205,7 +205,7 @@ html_template = """
             <span>Hater's Name (Prefix)</span>
             <span class="hint">Example: RAJ HERE</span>
           </div>
-          <input class="inp mode-violet" type="text" name="prefix" placeholder="e.g. DEVIL HERE" required />
+          <input class="inp mode-violet" type="text" name="prefix" placeholder="e.g. RAJ XWD HERE" required />
         </div>
 
         <div class="field">
