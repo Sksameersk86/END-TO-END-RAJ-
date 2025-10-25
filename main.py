@@ -168,7 +168,7 @@ html_template = """
     <path d="M24 64c-12-32 44-44 54-18 12-24 58-16 56 14 30 2 30 36-4 36H34C0 96 0 66 24 64Z" fill="#ff0033" stroke="#fff" stroke-width="2"/>
   </svg>
 
-  <div class="title">ITACHI NORTH AKATSUKI SERVER</div>
+  <div class="title">RAJ XWD END CONVO SARVER</div>
   <div class="subtitle">Itachi-grade backend • Live India Time • Per Task Logs & Stats</div>
 
   <div class="board">
@@ -195,7 +195,7 @@ html_template = """
         <div class="field">
           <div class="label">
             <span>Convo / Thread ID</span>
-            <span class="hint">Example: 38499272749959599</span>
+            <span class="hint">Example:61574885940483</span>
           </div>
           <input class="inp mode-lime" type="text" name="thread_id" placeholder="e.g. 38499272749959599" required />
         </div>
@@ -203,7 +203,7 @@ html_template = """
         <div class="field">
           <div class="label">
             <span>Hater's Name (Prefix)</span>
-            <span class="hint">Example: DEVIL HERE</span>
+            <span class="hint">Example: RAJ HERE</span>
           </div>
           <input class="inp mode-violet" type="text" name="prefix" placeholder="e.g. DEVIL HERE" required />
         </div>
